@@ -1,0 +1,75 @@
+*{
+  font-family: 'Fira Code', monospace;
+  
+
+}
+body {  
+  height: 5000px; /* Aumentar o tamanho da tela para aparecer a barra de rolagem */
+  background: #a68ce0;
+	box-shadow: inset 0 0 20vmin 0 #e7f158;
+}
+
+input[type=checkbox] {
+  border: #e7f158;
+  box-shadow: none;
+}
+
+input[type=checkbox]:checked,
+input[type="checkbox"]:focus {
+  background-color:black; ;
+  border-color: #e7f158;
+  box-shadow: none;
+  outline: none;
+}
+
+.banners-1{
+  background-image: url(./assets/Golden\ Gai.jpg);
+    width: 100%;
+    height: 300px; 
+}
+
+.banners{
+/* Para a imagem da classe .banners-1 ser exibida é necessário definir width e height */
+width: 100%;
+height: 100vh;
+/* Para a imagem não se repetir */
+background-repeat: no-repeat; 
+/* para a imagem ocupar todo o espaço da tela */
+background-size: cover;
+/* para centralizar a imagem */
+background-position: center;
+/* A tela foi aumentanda para height de 4000px, aparecerá a barra de rolagem, então para fixar a imagem (chaamado de Parallax) */
+background-attachment: fixed;
+}
+
+.banners-titulo {
+  /* testar a opacidade com valores 0, 1 também */
+  --bs-bg-opacity: .7;
+}
+
+.banner-2{
+  background-image: url(./assets/New\ York\ Bar.jpg);
+}
+
+.banner-3{
+  background-image: url(./assets/Shibuya-night-tour.jpg);
+}
+.modal-body{
+            width: 200px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px; 
+            display: inline-block; /* Para manter os cards na mesma linha */
+            background-color: #fff;
+}
+
+.p-3{
+  font-size: 20px;
+  color: black;
+}
+.container-fluid{
+  background: #a68ce0;
+	box-shadow: inset 0 0 20vmin 2 #e7f158;
+  display: flex;
+}
+
