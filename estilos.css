@@ -4,7 +4,7 @@
 
 }
 body {  
-  height: 5000px; /* Aumentar o tamanho da tela para aparecer a barra de rolagem */
+  height: 4000px; /* Aumentar o tamanho da tela para aparecer a barra de rolagem */
   background: #a68ce0;
 	box-shadow: inset 0 0 20vmin 0 #e7f158;
 }
@@ -45,6 +45,8 @@ background-attachment: fixed;
 .banners-titulo {
   /* testar a opacidade com valores 0, 1 também */
   --bs-bg-opacity: .7;
+    color: #a68ce0;
+    box-shadow: inset 0 0 20vmin 0 #e7f158;
 }
 
 .banner-2{
@@ -54,22 +56,3 @@ background-attachment: fixed;
 .banner-3{
   background-image: url(./assets/Shibuya-night-tour.jpg);
 }
-.modal-body{
-            width: 200px;
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin: 20px; 
-            display: inline-block; /* Para manter os cards na mesma linha */
-            background-color: #fff;
-}
-
-.p-3{
-  font-size: 20px;
-  color: black;
-}
-.container-fluid{
-  background: #a68ce0;
-	box-shadow: inset 0 0 20vmin 2 #e7f158;
-  display: flex;
-}
-
