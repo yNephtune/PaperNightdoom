@@ -23,7 +23,7 @@ input[type="checkbox"]:focus {
 }
 
 .banners-1{
-  background-image: url(./assets/Golden\ Gai.jpg);
+  background-image: url(../img/Golden\ Gai.jpg);
     width: 100%;
     height: 300px; 
 }
@@ -44,15 +44,21 @@ background-attachment: fixed;
 
 .banners-titulo {
   /* testar a opacidade com valores 0, 1 também */
-  --bs-bg-opacity: .7;
-    color: #a68ce0;
-    box-shadow: inset 0 0 20vmin 0 #e7f158;
+  --bs-bg-opacity: .1;
+    color: #e7f158;
+    box-shadow: inset 0 0 40vmin 0 #4e12d0;
 }
 
 .banner-2{
-  background-image: url(./assets/New\ York\ Bar.jpg);
+  background-image: url(../img/New\ York\ Bar.jpg);
 }
 
 .banner-3{
-  background-image: url(./assets/Shibuya-night-tour.jpg);
+  background-image: url(../img/Shibuya-night-tour.jpg);
 }
+
+.navbar{
+  background: #e7f158;
+  box-shadow: inset 0 0 5vmin 0 #a68ce0;
+}
+
